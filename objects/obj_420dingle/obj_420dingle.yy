@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object1",
-  "spriteId": null,
+  "name": "obj_420dingle",
+  "spriteId": {
+    "name": "spr_420dingle",
+    "path": "sprites/spr_420dingle/spr_420dingle.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
