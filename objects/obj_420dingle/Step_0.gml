@@ -8,3 +8,15 @@ if (keyboard_check(vk_right)) {
 if (keyboard_check(vk_up)) {
 	motion_add(image_angle, 0.1)
 }
+if (x < -32) {
+	x = 632;
+}
+if (y > 632) {
+	y = -32;
+}
+if (x > 632) {
+	x = -32;
+}
+if (y < -32) {
+	y = 632;
+}
