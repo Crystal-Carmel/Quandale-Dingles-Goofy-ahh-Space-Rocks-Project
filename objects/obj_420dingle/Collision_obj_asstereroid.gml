@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
+/// @description L+Ratio you ran into the asteroid bozo
+instance_destroy();
+global.ratio = 1
