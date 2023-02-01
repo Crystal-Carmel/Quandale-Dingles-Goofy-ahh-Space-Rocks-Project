@@ -23,4 +23,8 @@ LEFT/RIGHT: MOVE, BUT ANGULAR
 
       >>PRESS ENTER TO BEGIN!<<")
 	break;
+	
+	case rm_win:
+		
+	break;
 }
