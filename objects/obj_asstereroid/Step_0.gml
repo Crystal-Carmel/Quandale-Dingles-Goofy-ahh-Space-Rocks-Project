@@ -12,4 +12,5 @@ if (y < -32) {
 	y = 632;
 }
 image_angle = image_angle + vSpin
+create = 0;
 
