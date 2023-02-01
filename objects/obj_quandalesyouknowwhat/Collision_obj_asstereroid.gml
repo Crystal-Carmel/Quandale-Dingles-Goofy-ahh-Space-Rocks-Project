@@ -3,6 +3,7 @@ instance_destroy();
 with(other) {
 	instance_destroy();
 	if (sprite_index = spr_largeass) {
+		score = score + 100;
 		repeat(2) {
 			var ass1 = instance_create_layer(x,y, "Instances", obj_asstereroid);
 			ass1.sprite_index = spr_midass;
@@ -10,6 +11,7 @@ with(other) {
 			ass1.speed = irandom_range(1, 3)
 		}
 	} else if (sprite_index = spr_midass) {
+		score = score + 100;
 		repeat(2) {
 			var ass2 = instance_create_layer(x,y, "Instances", obj_asstereroid);
 			ass2.sprite_index = spr_smallass;
@@ -18,6 +20,7 @@ with(other) {
 		}
 	} else if (sprite_index = spr_smallass) {
 				instance_destroy();
+				score = score + 150;
 			}	
 	repeat(10) {
 		instance_create_layer(x,y, "Instances", obj_debris);
