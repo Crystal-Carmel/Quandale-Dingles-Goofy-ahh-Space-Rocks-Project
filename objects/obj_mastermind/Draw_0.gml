@@ -14,7 +14,7 @@ switch(room) {
 		2.4, 2.4, 0, c,c,c,c, 1);
 		
 		draw_text(130, 320,
-		@"      SCORE 2,000 POINTS TO WIN!
+		@"      SCORE 1,250 POINTS TO WIN!
 
                       UP: MOVE
 LEFT/RIGHT: MOVE, BUT ANGULAR
@@ -25,6 +25,12 @@ LEFT/RIGHT: MOVE, BUT ANGULAR
 	break;
 	
 	case rm_win:
-		
+		var c = c_yellow;
+		draw_set_halign(fa_center);
+		draw_text_transformed_color(room_width/2, 270, @"YOU DID IT YOU 
+DINGLIN' BOZO!",
+		2.4, 2.4, 0, c,c,c,c, 1);
+		draw_text(room_width/2, 400, "now press enter and do it again lmao");
+		draw_set_halign(fa_left);
 	break;
 }
