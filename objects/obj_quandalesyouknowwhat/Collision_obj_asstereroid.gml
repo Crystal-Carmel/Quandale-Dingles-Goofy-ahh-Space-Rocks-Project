@@ -19,8 +19,11 @@ with(other) {
 			ass2.speed = irandom_range(1, 3)
 		}
 	} else if (sprite_index = spr_smallass) {
-				instance_destroy();
-				score = score + 150;
+			instance_destroy();
+			var xassgen = choose(irandom_range(-16, -32), irandom_range(616, 632));
+			var yassgen = choose(irandom_range(-16, -32), irandom_range(616, 632));
+			instance_create_layer (xassgen, yassgen, "Instances", obj_asstereroid);
+			score = score + 150;
 			}	
 	repeat(10) {
 		instance_create_layer(x,y, "Instances", obj_debris);
