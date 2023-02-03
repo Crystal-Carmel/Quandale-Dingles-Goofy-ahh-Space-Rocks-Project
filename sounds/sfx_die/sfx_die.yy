@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "msc_game",
+  "name": "sfx_die",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_game.wav",
-  "duration": 89.590546,
+  "soundFile": "sfx_die.wav",
+  "duration": 0.835918,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

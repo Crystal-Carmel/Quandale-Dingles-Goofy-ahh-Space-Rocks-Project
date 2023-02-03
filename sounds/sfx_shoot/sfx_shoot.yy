@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "msc_game",
+  "name": "sfx_shoot",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_game.wav",
-  "duration": 89.590546,
+  "soundFile": "sfx_shoot.wav",
+  "duration": 0.179478,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

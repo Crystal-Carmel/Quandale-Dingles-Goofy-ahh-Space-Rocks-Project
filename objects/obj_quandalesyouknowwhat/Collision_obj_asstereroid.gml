@@ -1,5 +1,6 @@
 /// @description destroy
 instance_destroy();
+audio_play_sound(sfx_die, 1, false);
 with(other) {
 	instance_destroy();
 	if (sprite_index = spr_largeass) {

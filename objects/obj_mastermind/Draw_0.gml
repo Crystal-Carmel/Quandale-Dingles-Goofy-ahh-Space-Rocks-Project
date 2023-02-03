@@ -34,3 +34,8 @@ DINGLIN' BOZO!",
 		draw_set_halign(fa_left);
 	break;
 }
+if (global.ratio = 1 and global.g != 1) {
+	draw_set_halign(fa_center);
+	draw_text(room_width/2, 300, "PRESS ENTER");
+	draw_set_halign(fa_left);
+}

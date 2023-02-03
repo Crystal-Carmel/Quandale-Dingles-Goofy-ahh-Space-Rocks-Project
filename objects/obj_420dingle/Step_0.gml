@@ -11,6 +11,7 @@ if (keyboard_check(vk_up)) {
 if (keyboard_check_pressed(vk_down)) {
 	var bulinst = instance_create_layer(x,y, "Instances", obj_quandalesyouknowwhat)
 	bulinst.direction = image_angle;
+	audio_play_sound(sfx_shoot, 1, false);
 }
 if (x < -32) {
 	x = 632;
