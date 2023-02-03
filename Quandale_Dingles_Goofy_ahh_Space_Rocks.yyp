@@ -11,6 +11,7 @@
     {"id":{"name":"spr_smallass","path":"sprites/spr_smallass/spr_smallass.yy",},"order":1,},
     {"id":{"name":"spr_midass","path":"sprites/spr_midass/spr_midass.yy",},"order":2,},
     {"id":{"name":"obj_quandalesyouknowwhat","path":"objects/obj_quandalesyouknowwhat/obj_quandalesyouknowwhat.yy",},"order":3,},
+    {"id":{"name":"msc_game","path":"sounds/msc_game/msc_game.yy",},"order":0,},
     {"id":{"name":"spr_stars","path":"sprites/spr_stars/spr_stars.yy",},"order":8,},
     {"id":{"name":"obj_mastermind","path":"objects/obj_mastermind/obj_mastermind.yy",},"order":6,},
     {"id":{"name":"obj_asstereroid","path":"objects/obj_asstereroid/obj_asstereroid.yy",},"order":1,},

@@ -5,7 +5,7 @@ if (keyboard_check_pressed(vk_enter)) {
 			room = rm_game;
 			global.ratio = 0;
 			score = 0;
-			lives = 3;
+			lives = 1;
 		break;
 		case rm_game:
 			if (global.ratio = 1) {
@@ -18,7 +18,7 @@ if (keyboard_check_pressed(vk_enter)) {
 	}
 }
 if (room = rm_game) {
-	if (score >= 1250) {
+	if (score >= 1500) {
 		room = rm_win;
 	}
 }

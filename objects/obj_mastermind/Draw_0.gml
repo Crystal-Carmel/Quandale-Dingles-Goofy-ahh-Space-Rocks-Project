@@ -14,7 +14,7 @@ switch(room) {
 		2.4, 2.4, 0, c,c,c,c, 1);
 		
 		draw_text(130, 320,
-		@"      SCORE 1,250 POINTS TO WIN!
+		@"      SCORE 1,500 POINTS TO WIN!
 
                       UP: MOVE
 LEFT/RIGHT: MOVE, BUT ANGULAR
